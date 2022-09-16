@@ -1,12 +1,12 @@
 export const slides = [{
     name: "pottery",
     desc: "African made pot",
-    img:https://images.pexels.com/photos/2162938/pexels-photo-2162938.jpeg?cs=srgb&dl=pexels-quang-nguyen-vinh-2162938.jpg&fm=jpg 
+    img:"https://images.pexels.com/photos/2162938/pexels-photo-2162938.jpeg?cs=srgb&dl=pexels-quang-nguyen-vinh-2162938.jpg&fm=jpg" 
 },
     {
         name: "weavings",
         desc:  "african woven products",
-        img: "https://images.pexels.com/photos/2162938/pexels-photo-2162938.jpeg?cs=srgb&dl=pexels-quang-nguyen-vinh-2162938.jpg&fm=jpg" 
+        img: "https://i.pinimg.com/originals/a9/e3/af/a9e3afedac479bfbf0cc8653307a713e.jpg" 
     },
     {
         name:"sculpture" ,
