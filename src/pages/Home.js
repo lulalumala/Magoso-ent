@@ -1,7 +1,8 @@
 import Nav from "../components/Nav"
 import Slider from "../components/Slider"
 import Features from "../components/Features"
-
+import Categories from "../components/Categories"
+import BestSellers from "../components/BestSellers"
 
 
 const Home = () => {
@@ -10,7 +11,9 @@ const Home = () => {
             <div>
             <Nav /> 
                 <Slider />
-                <Features/>
+                <Features />
+                <Categories />
+                <BestSellers/>
                 
         
         

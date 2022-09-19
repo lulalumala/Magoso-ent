@@ -15,7 +15,7 @@ const Slider = () => {
         <SliderContainer>
             {
                 slides.map((slide, index) => {
-                    console.log(slide)
+                    
                     return (
                         <SliderItem>
                             <ImageContainer>
