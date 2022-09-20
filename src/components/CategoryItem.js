@@ -9,7 +9,7 @@ const ImageContain = styled.div`width:100%; height: 100%;`
 const ImageCategory = styled.div`position:relative; display: flex; align-items: center; justify-content: center; width: 30%; cursor:pointer;`
 const CategoryName = styled.div`position:absolute; color:white; font-size:2rem; text-transform: capitalize; width:100%; height: 100%; display: flex; align-items: center; justify-content: center; background:rgba(0,0,0,.5);`
 const Container = styled.div`display:flex; flex-direction:row; justify-content: center; flex-wrap:wrap; gap: 2em; width: 80%; margin: 0 auto;`
-const BrowseCategories=styled.div`font-weight: bold; text-align: center; font-size: 2rem; margin: 1em 0;`
+const BrowseCategories=styled.div`font-weight: bold; text-align: center; font-size: 2rem; margin: 1em 0; color:green;`
 
 const CategoryItem = () => {
     return (

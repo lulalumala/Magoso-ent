@@ -4,8 +4,8 @@ import BestSellersItems from "./BestSellersItems"
 const BestSellers = () => {
     return (
         <>
-            <BestSellersItems></BestSellersItems>
-            <BestSellers></BestSellers>
+            <BestSellersItems/>
+                    
         </>
     )
 }
