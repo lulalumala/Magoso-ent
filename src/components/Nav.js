@@ -4,7 +4,7 @@ import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 const NavContainer = styled.div`
-margin: 1.5em 0;`
+padding: 1.5em 0;`
 const InnerNav = styled.div`display:flex; justify-content:space-between; align-items:center;`
 const Left = styled.div`display:flex; gap:1em; align-items:center;`
 const SearchContainer = styled.div`border:2px solid black; border-radius:5px; width:fit-content; height:fit-content; display:flex; align-items:center; padding:1 0.5em;`

@@ -4,7 +4,7 @@ import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 
 const Span=styled.span` color:red; font-size:1.5rem;`
-const FooterInfo = styled.div`background:orange;`
+const FooterInfo = styled.div`background:orange; padding: 1em 0;`
 const FooterCopy = styled.p`text-align: center;padding: 1em 0; font-size:1rem;`
 const FooterContainer = styled.div`display:flex; justify-content:flex-end;color:green;`
 const FooterMagoso = styled.div`width:23%;`

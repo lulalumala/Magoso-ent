@@ -20,3 +20,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* Form Controls */
+/*  */
+
+.email:focus ~ .email-text {
+  opacity:1;
+  animation-name: reveal;
+  animation-duration: 1s;
+
+}
+
+
+/* @keyframes reveal {
+  0%{
+    opacity: 0;
+    bottom: 0;
+  }
+  100%{
+    opacity: 1;
+    bottom: 4em;
+    color: "green";
+  }
+}
+
+
+@keyframes hide {
+  0%{
+    opacity: 1;
+    bottom: 4em;
+  }
+  100%{
+    opacity: 0;
+    bottom: ;
+    color: "green";
+  }
+} */
