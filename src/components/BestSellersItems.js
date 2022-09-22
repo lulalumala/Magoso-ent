@@ -29,7 +29,7 @@ const BestSellersItems = () => {
                 {
                     bestSellers.slice(0, 3).map((bestSelling, index) => {
                         return (
-                            <BestSellersData>
+                            <BestSellersData key={index}>
                                 <ImageContainer>
                                     <Image src={bestSelling.img} />
                                 </ImageContainer>

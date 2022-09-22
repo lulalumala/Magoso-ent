@@ -21,7 +21,7 @@ const CategoryItem = () => {
                     categories.map((categorydata, index) => {
                         return (
 
-                            <ImageCategory>
+                            <ImageCategory key={index}>
                                 <ImageContain>
                                     <Image src={categorydata.img} />
                                 </ImageContain>

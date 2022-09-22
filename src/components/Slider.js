@@ -14,13 +14,13 @@ display: flex;
 justify-content: center;
 align-items:center;
 position:absolute;
-top: 50%; left: ${props => props.direction == "left" ? 1 : 96}%;
+top: 50%; left: ${props => props.direction === "left" ? 1 : 96}%;
 transform: translateY(-50%);
 z-index:200 ;`
 const SliderContainer = styled.div`display: flex; 
 overflow: hidden;`
 const SliderItem = styled.div`width:100vw; height:70vh; position:relative;flex:1;
-transition: all .5s ease-in;`
+transition: all 2s ease-in;`
 const ImageContainer = styled.div`width:100vw   ; height:100%;`
 const Image = styled.img`width:100%; height:100%; object-fit:cover;object-position: left 50% top 40%;`
 const SliderInfo = styled.div`
@@ -46,7 +46,7 @@ const Slider = () => {
     
     const [activeIndex, setActiveIndex]=useState(0)
     const handleSlide = (side) => {
-        if (side == "left") {
+        if (side === "left") {
             setActiveIndex(activeIndex>0?activeIndex -1:5)
         }
         else {
@@ -61,7 +61,7 @@ const Slider = () => {
                 slides.map((slide, index) => {
 
                     return (
-                        <SliderItem style={{transform:`translateX(${activeIndex*-100}vw)`}}>
+                        <SliderItem key={index} style={{transform:`translateX(${activeIndex*-100}vw)`}}>
                             <NavigationArrow direction="left" onClick={ ()=>handleSlide ("left")}>
                                 <NavigateBeforeIcon />
                             </NavigationArrow>
