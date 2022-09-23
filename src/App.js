@@ -3,6 +3,8 @@ import Login from './pages/login';
 import Shop from './pages/shop';
 // import About from "./pages/About";
 import './App.css';
+import Register from "./pages/Register"
+import AddProduct from './pages/AddProduct';
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
 
       {/* <Home /> */}
       {/* <Shop/> */}
-      <Login />
+      {/* <Login /> */}
+      {/* <Register /> */}
+      <AddProduct/>
       {/* <About/> */}
 
     </>
