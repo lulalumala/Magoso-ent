@@ -6,6 +6,7 @@ import BestSellers from "../components/BestSellers"
 import NewsLetter from "../components/NewsLetter"
 import Footer from "../components/footer"
 
+
 const Home = () => {
     return (
         <>

@@ -2,6 +2,7 @@ import styled from "styled-components";
 import SearchIcon from '@mui/icons-material/Search';
 import Badge from '@mui/material/Badge';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { Link } from "react-router-dom"
 
 const NavContainer = styled.div`
 padding: 1.5em 0;`
@@ -29,9 +30,10 @@ const Nav = () => {
                     </Left>
                     <Right>
                         <NavUl>
-                            <NavList>Shop</NavList>
-                            <NavList>About</NavList>
-                            <NavList>Login/Register</NavList>
+                            <NavList><Link to="/">Home</Link></NavList>
+                            <NavList><Link to="/shop">Shop</Link></NavList>
+                            <NavList><Link to="/about">About</Link></NavList>
+                            <NavList><Link to="/login">Login/Register</Link></NavList>
                             <NavList><Badge badgeContent={1} color="primary">
                                 <ShoppingCartIcon />                            </Badge>
                             </NavList>
